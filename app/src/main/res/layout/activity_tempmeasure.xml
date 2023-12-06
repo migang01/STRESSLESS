@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF2CC">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="체온" />
+
+    <Button
+
+        android:id="@+id/backBtn"
+        android:layout_width="53dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="610dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:text="←"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/logoTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#BDD7EE"
+        android:textStyle="bold"
+        android:text="STRESSLESS" />
+
+</LinearLayout>
