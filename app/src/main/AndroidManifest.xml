@@ -2,9 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-->권한 추가<-->
-    <uses-permission android:name="android.permission.READ_CLIPBOARD" />
-    <uses-permission android:name="android.permission.WRITE_CLIPBOARD" />
+<!--    &lt;!&ndash;>권한 추가<&ndash;&gt;-->
+<!--    <uses-permission android:name="android.permission.READ_CLIPBOARD" />-->
+<!--    <uses-permission android:name="android.permission.WRITE_CLIPBOARD" />-->
 
     <application
         android:allowBackup="true"
@@ -16,6 +16,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.STRESSLESS"
         tools:targetApi="31">
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -23,7 +25,6 @@
             android:theme="@style/Theme.STRESSLESS">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

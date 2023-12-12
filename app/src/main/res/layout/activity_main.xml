@@ -7,43 +7,43 @@
 
     <Button
         android:id="@+id/litmusBtn"
-        android:layout_width="364dp"
+        android:layout_width="318dp"
         android:layout_height="109dp"
-        android:layout_marginLeft="23dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="70dp"
         android:background="#BDD7EE"
         android:text="리트머스 검사하기"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/tempBtn"
-        android:layout_width="366dp"
+        android:layout_width="318dp"
         android:layout_height="104dp"
-        android:layout_marginLeft="23dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="40dp"
         android:background="#BDD7EE"
         android:text="체온 측정하기"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/bloodoxgBtn"
-        android:layout_width="367dp"
+        android:layout_width="322dp"
         android:layout_height="107dp"
-        android:layout_marginLeft="23dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="40dp"
         android:background="#BDD7EE"
         android:text="혈중산소농도 데이터 가져오기"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/dataBtn"
-        android:layout_width="366dp"
+        android:layout_width="322dp"
         android:layout_height="103dp"
-        android:layout_marginLeft="23dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="40dp"
         android:background="#BDD7EE"
         android:text="측정값 보기"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/logoTxt"

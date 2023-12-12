@@ -22,27 +22,27 @@
 
         <TextView
             android:id="@+id/date"
-            android:layout_width="wrap_content"
+            android:layout_width="106dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginLeft="170dp"
-            android:text="" />
+            android:layout_weight="1"
+            android:text="날짜" />
 
         <TextView
             android:id="@+id/time"
-            android:layout_width="wrap_content"
+            android:layout_width="106dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginLeft="170dp"
-            android:text="" />
+            android:layout_weight="1"
+            android:text="시간" />
 
         <TextView
             android:id="@+id/bloodoxygen"
-            android:layout_width="wrap_content"
+            android:layout_width="106dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginLeft="170dp"
-            android:text="" />
+            android:layout_weight="1"
+            android:text="혈중산소농도" />
 
 <!--        <TextView-->
 <!--            android:id="@+id/OCRTextView"-->
@@ -60,16 +60,6 @@
             android:background="#FFFFFF"
             android:textStyle="bold"
             android:text="←" />
-
-        <TextView
-            android:id="@+id/logoTxt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
-            android:textColor="#BDD7EE"
-            android:textStyle="bold"
-            android:text="STRESSLESS" />
 
     </LinearLayout>
 

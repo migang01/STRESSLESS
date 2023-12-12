@@ -38,7 +38,8 @@ class BloodoxygenActivity : ComponentActivity() {
     private var mTess: TessBaseAPI? = null // Tess API refernece
     var datapath = "" // 언어데이터가 있는 경로
 
-    var OCRTextView: TextView? = null // OCR 결과
+//    var OCRTextView: TextView? = null // OCR 결과
+    /***/
 //    var textView: TextView? = null // 시인 이름
     var dateTextView: TextView? = null
     var timeTextView: TextView? = null
@@ -112,7 +113,6 @@ class BloodoxygenActivity : ComponentActivity() {
 
                         // 이미지에서 텍스트 추출 및 TextView에 설정
                         processImage()
-
 
 
                     } catch (e: Exception) {
@@ -197,7 +197,7 @@ class BloodoxygenActivity : ComponentActivity() {
         var OCRresult: String? = null
         mTess!!.setImage(bitmap)
         OCRresult = mTess!!.utF8Text
-        OCRTextView!!.text = OCRresult
+//        OCRTextView!!.text = OCRresult
 //        윤동주 테스트
 //        var writer: String = findWriter(OCRresult)
 //        textView!!.text = writer
